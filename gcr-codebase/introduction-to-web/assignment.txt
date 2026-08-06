@@ -1,0 +1,107 @@
+Web Development Assignment Answers
+
+1. Difference between Frontend, Backend, and Full-Stack Development
+
+Frontend: The part of a website users interact with. Technologies: HTML,
+CSS, JavaScript. Example: Amazon product page.
+
+Backend: Handles server logic, authentication, and databases.
+Technologies: Java, Node.js, Python, PHP. Example: Processing login
+credentials.
+
+Full-Stack: Works on both frontend and backend. Example: Building a
+complete e-commerce website.
+
+2. Client-Server Model Diagram
+
+    +---------+      HTTP Request      +-----------+
+    | Client  | ---------------------> |  Server   |
+    |Browser  | <--------------------- |           |
+    +---------+      HTTP Response     +-----------+
+
+3. How a Browser Displays a Web Page
+
+1.  User enters URL.
+2.  Browser sends HTTP/HTTPS request.
+3.  Server processes the request.
+4.  Server returns HTML, CSS, JS, images.
+5.  Browser renders the page for the user.
+
+4. Web Development Environment Tools
+
+-   VS Code – Code editor.
+-   Google Chrome – Testing and debugging.
+-   Live Server Extension – Live preview.
+-   Node.js – JavaScript runtime.
+-   Git – Version control.
+-   GitHub – Code hosting.
+-   Browser Developer Tools – Debugging.
+
+5. What is a Web Server?
+
+A web server stores, processes, and delivers web pages to users through
+HTTP/HTTPS. Examples: - Apache HTTP Server - Nginx - Microsoft IIS -
+LiteSpeed
+
+6. Roles
+
+Frontend Developer: - Creates UI using HTML, CSS, JavaScript.
+
+Backend Developer: - Develops server-side logic, APIs, authentication,
+database connectivity.
+
+Database Administrator (DBA): - Designs, manages, secures, and backs up
+databases.
+
+7. VS Code Setup
+
+Steps: 1. Install VS Code. 2. Install extensions: - Live Server - HTML
+CSS Support - Prettier - JavaScript (ES6) Snippets 3. Create HTML, CSS,
+JS files. 4. Open with Live Server. (Screenshot should be attached
+separately.)
+
+8. Static vs Dynamic Websites
+
+Static Website: - Fixed content. - Built with HTML/CSS. Example:
+Portfolio website.
+
+Dynamic Website: - Content changes using database/server. Example:
+Facebook, Amazon.
+
+9. Five Web Browsers and Rendering Engines
+
+  Browser           Rendering Engine
+  ----------------- ------------------
+  Google Chrome     Blink
+  Microsoft Edge    Blink
+  Mozilla Firefox   Gecko
+  Apple Safari      WebKit
+  Opera             Blink
+
+10. Basic Web Architecture
+
+    +---------+
+    | Client  |
+    +---------+
+         |
+     HTTP Request
+         |
+         v
+    +---------+
+    | Web     |
+    | Server  |
+    +---------+
+         |
+         +-------> API Services
+         |
+         v
+    +-----------+
+    | Database  |
+    +-----------+
+         |
+         v
+    HTTP Response
+         |
+    +---------+
+    | Client  |
+    +---------+
